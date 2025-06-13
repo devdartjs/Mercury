@@ -1,12 +1,41 @@
-# React + Vite
+# 🌤️ Mercury - A Simple Weather Forecast App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Mercury** is a simple, responsive, and modern weather forecast application built with **HTML**, **JavaScript**, and **Tailwind CSS**, with unit tests powered by **Jest**. It allows users to search for any city and display real-time weather information through a clean and user-friendly interface.
 
-Currently, two official plugins are available:
+## 🔗 Repository
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[https://github.com/devdartjs/Mercury](https://github.com/devdartjs/Mercury)
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔍 Search for weather by city name
+- 🌡️ Displays current temperature, feels-like, humidity, and weather conditions
+- 📍 Optional geolocation support
+- 🎨 Fully responsive design with Tailwind CSS
+- 🧪 Unit testing with Jest
+- 🐳 Docker containerization for easy deployment
+
+## 🛠️ Tech Stack
+
+- [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) for HTTP requests
+- [Jest](https://jestjs.io/) for unit testing
+- [Docker](https://www.docker.com/) for containerization
+- [OpenWeatherMap API](https://openweathermap.org/api) for weather data
+
+## 📦 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/devdartjs/Mercury.git
+
+# Navigate into the project directory
+cd Mercury
+
+# Install dependencies (if applicable)
+npm install
+
+
+```
