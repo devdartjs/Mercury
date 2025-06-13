@@ -52,8 +52,8 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-      - name: Debug version
-        run: echo "Versao extraida: ${{ env.VERSION }}"
+      - name: Extract version from package.json
+        run: echo "VERSION=$(jq -r .version package.json)" >> $GITHUB_ENV
 
         env:
           VERSION: ${{ env.VERSION }}
