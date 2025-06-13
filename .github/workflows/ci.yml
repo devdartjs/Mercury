@@ -31,8 +31,8 @@ jobs:
       - name: Build
         run: npm run build
 
-      # - name: Run tests
-      #   run: npm test
+      - name: Run tests with coverage
+        run: npm test --coverage
 
   # docker-build:
   #   runs-on: ubuntu-latest
