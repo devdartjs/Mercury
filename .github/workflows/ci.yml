@@ -64,5 +64,5 @@ jobs:
           context: .
           push: true
           tags: |
-            devdartjs/mercury:latest
-            devdartjs/mercury:${{ env.VERSION }}
+            dartw/mercury:latest
+            dartw/mercury:${{ env.VERSION }}
