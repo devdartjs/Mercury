@@ -57,6 +57,7 @@ jobs:
 
       - name: Debug version
         run: echo "Versao extraida: ${{ env.VERSION }}"
+
         env:
           VERSION: ${{ env.VERSION }}
 
