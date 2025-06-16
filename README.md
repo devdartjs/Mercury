@@ -2,66 +2,70 @@
 
 **Mercury** is a lightweight, responsive, and modern weather forecast application built with **React** and **Tailwind CSS**. It allows users to search for real-time weather information in any city through a clean and intuitive interface. The app is tested using **Vitest** and supports **Docker** for streamlined deployment.
 
-🔗 Repository
-https://github.com/devdartjs/Mercury
+## 🔗 Repository
 
-🚀 Features
+[https://github.com/devdartjs/Mercury](https://github.com/devdartjs/Mercury)
 
-🔍 Search weather by city name
+---
 
-🌡️ View current temperature, feels-like temperature, humidity, and general conditions
+## 🚀 Features
 
-📍 Optional geolocation support
+- Search weather by city name
+- View current temperature, feels-like temperature, humidity, and general conditions
+- Optional geolocation support
+- Clean, mobile-first design with Tailwind CSS
+- Unit testing with Vitest
+- Docker support for easy deployment
 
-🎨 Clean, mobile-first design with Tailwind CSS
+---
 
-✅ Unit testing with Vitest
+## 🛠️ Tech Stack
 
-🐳 Docker support for easy deployment
+### Frontend
 
-🛠️ Tech Stack
-React
+- **React** – For building the user interface and managing state
+- **Tailwind CSS** – For styling with a utility-first approach
 
-Tailwind CSS
+### Testing
 
-JavaScript (ES6+)
+- **Vitest** – For unit testing components
 
-Fetch API
+### Containers
 
-Vitest for unit testing
+- **Docker** – For containerization and simplified deployment
 
-Docker for containerization
+### APIs
 
-OpenWeatherMap API for weather data
+- **OpenWeatherMap API** – To fetch real-time weather data
+- **Geolocation API** – For accessing user location (optional)
 
-📦 Installation
+### Extensions
 
-# Clone the repository
+- **ESLint** – For code linting and enforcing standards
+- **Prettier** – For consistent code formatting
 
+### Environment
+
+- **JavaScript** – Application logic
+- **Node.js** – Runtime environment
+- **npm** – Package management
+
+### Repositories & CI/CD
+
+- **GitHub** – Source code hosting
+- **Docker Hub** – Container image hosting
+- **GitHub Actions** – For automated testing and deployment workflows
+
+---
+
+## 📦 Installation
+
+Clone the repository:
+
+```bash
 git clone https://github.com/devdartjs/Mercury.git
-
-# Navigate into the project directory
-
 cd Mercury
-
-# Install dependencies
-
 npm install
-🧪 Running Tests
-
-# Run unit tests using Vitest
-
-npm run test
-🐳 Running with Docker
-
-# Build the Docker image
-
-docker build -t mercury-weather-app .
-
-# Run the Docker container
-
-docker run -p 3000:3000 mercury-weather-app
-
-```
+npm run dev
 
 ```
