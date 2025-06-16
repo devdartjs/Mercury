@@ -1,41 +1,67 @@
 # 🌤️ Mercury - A Simple Weather Forecast App
 
-**Mercury** is a simple, responsive, and modern weather forecast application built with **HTML**, **JavaScript**, and **Tailwind CSS**, with unit tests powered by **Jest**. It allows users to search for any city and display real-time weather information through a clean and user-friendly interface.
+**Mercury** is a lightweight, responsive, and modern weather forecast application built with **React** and **Tailwind CSS**. It allows users to search for real-time weather information in any city through a clean and intuitive interface. The app is tested using **Vitest** and supports **Docker** for streamlined deployment.
 
-## 🔗 Repository
+🔗 Repository
+https://github.com/devdartjs/Mercury
 
-[https://github.com/devdartjs/Mercury](https://github.com/devdartjs/Mercury)
+🚀 Features
 
-## 🚀 Features
+🔍 Search weather by city name
 
-- 🔍 Search for weather by city name
-- 🌡️ Displays current temperature, feels-like, humidity, and weather conditions
-- 📍 Optional geolocation support
-- 🎨 Fully responsive design with Tailwind CSS
-- 🧪 Unit testing with Jest
-- 🐳 Docker containerization for easy deployment
+🌡️ View current temperature, feels-like temperature, humidity, and general conditions
 
-## 🛠️ Tech Stack
+📍 Optional geolocation support
 
-- [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML)
-- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) for HTTP requests
-- [Jest](https://jestjs.io/) for unit testing
-- [Docker](https://www.docker.com/) for containerization
-- [OpenWeatherMap API](https://openweathermap.org/api) for weather data
+🎨 Clean, mobile-first design with Tailwind CSS
 
-## 📦 Installation
+✅ Unit testing with Vitest
 
-```bash
+🐳 Docker support for easy deployment
+
+🛠️ Tech Stack
+React
+
+Tailwind CSS
+
+JavaScript (ES6+)
+
+Fetch API
+
+Vitest for unit testing
+
+Docker for containerization
+
+OpenWeatherMap API for weather data
+
+📦 Installation
+
 # Clone the repository
+
 git clone https://github.com/devdartjs/Mercury.git
 
 # Navigate into the project directory
+
 cd Mercury
 
-# Install dependencies (if applicable)
-npm install
+# Install dependencies
 
+npm install
+🧪 Running Tests
+
+# Run unit tests using Vitest
+
+npm run test
+🐳 Running with Docker
+
+# Build the Docker image
+
+docker build -t mercury-weather-app .
+
+# Run the Docker container
+
+docker run -p 3000:3000 mercury-weather-app
+
+```
 
 ```
