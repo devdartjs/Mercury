@@ -30,22 +30,22 @@ const App = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-sky-300 to-orange-200 text-white flex flex-col items-center justify-start px-4 py-8 sm:px-6 lg:px-12">
-      <div className="w-full max-w-2xl bg-white/10 backdrop-blur-md rounded-2xl shadow-xl p-6 sm:p-8 text-center">
-        <h1 className="text-4xl font-extrabold mb-8 tracking-tight text-slate-100">
+    <div className="min-h-screen bg-gradient-to-br from-[#0f0c29] via-[#302b63] to-[#24243e] text-white flex flex-col items-center justify-start px-4 py-10 sm:px-6 lg:px-12">
+      <div className="w-full max-w-2xl bg-white/10 border border-white/20 backdrop-blur-md rounded-3xl shadow-[0_0_30px_rgba(0,255,255,0.2)] p-6 sm:p-10 text-center transition-all duration-300">
+        <h1 className="text-5xl font-extrabold mb-10 tracking-wider text-cyan-300 drop-shadow-[0_0_10px_rgba(0,255,255,0.8)] font-futuristic">
           🌤️ Weather Forecast
         </h1>
 
         <SearchBar city={city} setCity={setCity} fetchWeather={fetchWeather} />
 
         {error && (
-          <div className="mt-6">
+          <div className="mt-8">
             <ErrorMessage message={error} />
           </div>
         )}
 
         {weather && (
-          <div className="mt-6">
+          <div className="mt-8 ml-24">
             <WeatherCard data={weather} />
           </div>
         )}
