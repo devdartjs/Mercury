@@ -45,7 +45,7 @@ const App = () => {
         )}
 
         {weather && (
-          <div className="mt-8 ml-24">
+          <div className="flex mt-8 justify-center items-center w-full">
             <WeatherCard data={weather} />
           </div>
         )}
