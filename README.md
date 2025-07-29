@@ -1,14 +1,14 @@
-# 🌤️ Mercury - A Simple Weather Forecast App
+# 🟢 Mercury - A Simple Weather Forecast App
 
 **Mercury** is a lightweight, responsive, and modern weather forecast application built with **React** and **Tailwind CSS**. It allows users to search for real-time weather information in any city through a clean and intuitive interface. The app is tested using **Vitest** and supports **Docker** for streamlined deployment.
 
-## 🔗 Repository
+## 🔵 Repository
 
 [https://github.com/devdartjs/Mercury](https://github.com/devdartjs/Mercury)
 
 ---
 
-## 🚀 Features
+## 🟠 Features
 
 - Search weather by city name
 - View current temperature, feels-like temperature, humidity, and general conditions
@@ -19,7 +19,7 @@
 
 ---
 
-## 🛠️ Tech Stack
+## 🟡 Tech Stack
 
 ### Frontend
 
@@ -58,7 +58,7 @@
 
 ---
 
-## 📦 Installation
+## 🟣 Installation
 
 Clone the repository:
 
