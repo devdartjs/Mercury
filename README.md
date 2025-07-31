@@ -69,4 +69,4 @@ bun dev || bun run dev
 
 ```
 
-> acess: "https://mercury-project-eight.vercel.app/"
+> access: "https://mercury-project-eight.vercel.app/"
