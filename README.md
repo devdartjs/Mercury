@@ -1,6 +1,6 @@
 # 🟢 Mercury - A Simple Weather Forecast App
 
-**Mercury** is a lightweight, responsive, and modern weather forecast application built with **React** and **Tailwind CSS**. It allows users to search for real-time weather information in any city through a clean and intuitive interface. The app is tested using **Vitest** and supports **Docker** for streamlined deployment.
+**Mercury** is a lightweight, responsive, and modern weather forecast application built with **React** and **Tailwind CSS** in **Bun** as Runtime. It allows users to search for real-time weather information in any city through a clean and intuitive interface. The app is tested using **Vitest**, supports **Docker** for streamlined deployment and uses **Vite**.
 
 ## 🔵 Repository
 
@@ -47,8 +47,7 @@
 ### Environment
 
 - **JavaScript** – Application logic
-- **Node.js** – Runtime environment
-- **npm** – Package management
+- **Bun** – Runtime environment
 
 ### Repositories & CI/CD
 
@@ -65,7 +64,7 @@ Clone the repository:
 ```bash
 git clone https://github.com/devdartjs/Mercury.git
 cd Mercury
-npm install
-npm run dev
+bun install
+bun dev || bun run dev
 
 ```
