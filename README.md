@@ -68,3 +68,5 @@ bun install
 bun dev || bun run dev
 
 ```
+
+> acess: "https://mercury-project-eight.vercel.app/"
