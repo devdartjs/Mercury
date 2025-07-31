@@ -3,7 +3,7 @@ import SearchBar from "./components/SearchBar";
 import WeatherCard from "./components/WeatherCard";
 import ErrorMessage from "./components/ErrorMessage";
 import "./App.css";
-//
+
 const App = () => {
   const [city, setCity] = useState("");
   const [weather, setWeather] = useState(null);
